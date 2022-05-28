@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.page-content {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(75, 76, 81);
+}
+
+.page-navbar {
+  border-radius: 7px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.page-main {
+  background-color: rgb(100, 100, 100);
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.page-imput-task {
+  padding: 20px 15px;
+}
+
+.page-show-task {
+  margin: 10px 15px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.task-title {
+  font-weight: bold;
+  font-size: larger;
+}
